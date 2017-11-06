@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: #FDE6EB;
+    color: #60269B;
+}
+
+#app{
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+#mount-point{
+}
+
+#addDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+}
+
+
+table,  td {
+    border: 1px  dotted black;
+}
+td {
+    text-align: center;
+    width: 150px;
+}
+
+#selectSearch, input, button{
+    height: 30px;
+}
+
+#searches{
+    display: flex;
+    flex-direction: row;
+    border: 5px dotted rebeccapurple;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#Grids{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px dotted deepskyblue;
+}
+
+#results{
+    border: 5px dotted mediumspringgreen;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#AirportGrid,#CompanysGrid,#PlaneGrid,#FligthGrid{
+    margin: auto;
+}
+
+input, select{
+    border-radius: 2px;
+    border-color: #a893d3;
+}
+
+button{
+    border-radius: 3px;
+    border-color: royalblue;
+    background-color: #d7e1e1;
+}
